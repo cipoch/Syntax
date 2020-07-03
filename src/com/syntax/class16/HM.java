@@ -10,6 +10,7 @@ public class HM {
 		
 		System.out.println(obj.palindrome(a));
 		System.out.println(palindromeLocal(a));
+	      
 		
 	}
 	
