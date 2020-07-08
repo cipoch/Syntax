@@ -22,7 +22,7 @@ public class Students {
 		createStudent("meks", 89897);
 		createStudent("peks", 3256);
 
-		System.out.println(numberOfStudents);	
+		System.out.println("Print out  total number of students is:" + numberOfStudents);	
 		
 	}
 	
@@ -32,6 +32,7 @@ public class Students {
 		Students s1 = new Students();
 		s1.studentName = name;
 		s1.studentID = id;
+		System.out.println("Student name:" + s1.studentName + "  Id:" + s1.studentID);
 	}
 	
 
