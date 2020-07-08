@@ -1,9 +1,15 @@
 package com.syntax.class17;
+import java.util.Scanner;
+
 
 public class HM {
 
 
 	public static void main(String[] args) {
+		
+		lala();
+		
+		/*
 		//1 Create a method createEmail(). Based on values of users name, lastName and email type, your method should return complete email Address. 
 		//Example:  createEmail(John, Snow, gmail) → johnsnow@gmail.com
 		System.out.println("1)");
@@ -29,12 +35,32 @@ public class HM {
 	        score > 50 - D
 	        anything else - F
 	     */
+		
+		/*
 		System.out.println("3)");
 		int score = 78;
 		System.out.println("Student with score "+ score + " gradded " + getGrade(score));
 		System.out.println("");
-		
+		*/
 	}
+	
+	
+	static void lala() {
+		Scanner inp = new Scanner(System.in);
+	    System.out.print("In:");
+	    String word = inp.nextLine();
+	    //write your code below
+	   int count = 0;
+	   
+	   for(int i = 0; i < word.length(); i+=2) {
+	      
+	      
+		   System.out.print(word.charAt(i));
+	    
+	    
+	   }
+	}
+	
 	
 	
 	static String getGrade(int score)
