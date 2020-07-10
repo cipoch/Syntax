@@ -50,7 +50,7 @@ public class HM {
 	    System.out.print("In:");
 	    String word = inp.nextLine();
 	    //write your code below
-	   int count = 0;
+	   //int count = 0;
 	   
 	   for(int i = 0; i < word.length(); i+=2) {
 	      
@@ -59,6 +59,7 @@ public class HM {
 	    
 	    
 	   }
+	   inp.close();
 	}
 	
 	
