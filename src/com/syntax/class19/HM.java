@@ -12,6 +12,7 @@ public class HM {
 	public static void main(String[] args) {
 		
 		System.out.println(getVowel("lolololalakeksuber"));
+		System.out.println(getVowel2("lolololalakeksuber"));
 	}
 	
 	
@@ -29,4 +30,11 @@ public class HM {
 		
 		return b;
 	}
+	
+	
+	static String getVowel2(String g) {
+	     g = g.replaceAll("[^aeiouAEIOU]", "");
+	     return g;
+	  }
+	
 }
