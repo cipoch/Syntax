@@ -34,6 +34,6 @@ class Base {
 
 class Derived extends Base {
     public void doSomething(double i) {
-        System.out.println("Int");
+        System.out.println("double");
     }
 }
