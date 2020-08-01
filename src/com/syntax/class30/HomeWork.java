@@ -36,11 +36,12 @@ public static void main(String[] args) throws InterruptedException {
 		driver.findElement(By.name("customer.address.zipCode")).sendKeys("11224");
 		driver.findElement(By.name("customer.phoneNumber")).sendKeys("917-242-5555");
 		driver.findElement(By.name("customer.ssn")).sendKeys("123-45-6789");
-		driver.findElement(By.name("customer.username")).sendKeys("Kokoko");
+		driver.findElement(By.name("customer.username")).sendKeys("Kokoko2");
 		driver.findElement(By.name("customer.password")).sendKeys("password");
 		driver.findElement(By.id("repeatedPassword")).sendKeys("password");
 		
-		driver.findElement(By.linkText("Register")).click();
+		driver.findElement(By.cssSelector("input[value$='Register']")).click();
+		//driver.findElement(By.cssSelector("//input[value$='Register']")).click();
 		
 		//driver.findElement(By.className("button")).click();
 		
